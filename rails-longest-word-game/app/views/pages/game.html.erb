@@ -1,0 +1,12 @@
+<body class="center fond">
+  <h1 class="text_white padding">NeW GaMe !!!!</h1>
+  <div class="wrapper">
+    <h2>Make word with :</h2>
+    <p> <%= @grid %> </p>
+    <form action="/score">
+      <label for="question">Find Word</label>
+      <input type="text" id="question" name="game" placeholder="find the biggest word">
+      <input type="submit" value="Go on!">
+    </form>
+  </div>
+</body>

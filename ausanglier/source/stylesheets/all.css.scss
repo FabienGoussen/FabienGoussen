@@ -1,0 +1,52 @@
+// General Style Variables
+@import "config/variables";
+@import "config/bootstrap_variables";
+
+// External Frameworks
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+// Our CSS
+@import "layout/*";
+@import "components/*";
+@import "pages/*";
+@import "vendor/*";
+
+.margin-botton {
+  margin-bottom: 5px;
+}
+
+.module-image {
+  background-color: #222;
+  background-image: url(../images/home-1.jpg);
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 1;
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+      background-size: cover;
+  padding: 0;
+}
+
+.parallax_home1 {
+  background-attachment: fixed;
+  background-position: 0% 0%;
+}
+#callout-one {
+    background-image: url(../images/vitrine.jpg);
+}
+
+#callout-two {
+    background-image: url(../images/Viande-Rouge.jpg);
+}
+
+#callout-three {
+    background-image: url(../images/regis.jpg);
+}
+.parallax {
+  background-attachment: fixed;
+  background-position: 10% 0%;
+}
